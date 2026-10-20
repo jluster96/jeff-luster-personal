@@ -172,6 +172,19 @@
   .repos .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
   .more { margin-top: 20px; }
 
+  /* Founder training */
+  .program { margin-top: 24px; padding: 28px; border: 1px solid var(--rule); border-left: 4px solid var(--amber); border-radius: 18px; background: var(--card); }
+  .program-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 16px; margin-bottom: 12px; }
+  .program h3 { margin: 0; font-size: 1.4rem; font-weight: 800; font-variation-settings: "wdth" 112; line-height: 1.15; }
+  .program-sub { margin: 4px 0 0; color: var(--muted); }
+  .program .yr { color: var(--muted); font-size: 0.95rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .program > p { margin: 0 0 14px; max-width: 68ch; }
+  .program > p:last-child { margin-bottom: 0; }
+  .weeks { margin: 0 0 16px; padding-left: 1.4em; max-width: 68ch; }
+  .weeks li { margin-bottom: 6px; padding-left: 4px; }
+  .weeks li::marker { color: var(--amber-ink); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .weeks strong { font-weight: 600; }
+
   /* Advising */
   .helps { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 36px; margin: 0; padding: 0; list-style: none; }
   .helps li { padding-top: 14px; border-top: 2px solid var(--amber); }
@@ -339,6 +352,26 @@
             <div class="stack"><span>Python</span><span>Whisper</span><span>PyTorch</span><span>uv</span><span>PyInstaller</span></div>
           </article>
         </div>
+
+        <article class="program" aria-labelledby="efs-h">
+          <header class="program-head">
+            <div>
+              <h3 id="efs-h">Hustle Fund Emerging Founder School</h3>
+              <p class="program-sub">Founder Fellow, inaugural cohort. Graduated May 2025.</p>
+            </div>
+            <span class="yr">Mar – May 2025</span>
+          </header>
+          <p>I was selected for the first cohort of <a href="https://www.hustlefund.vc/emerging-founder-school" target="_blank" rel="noopener">Hustle Fund’s founder fellowship</a>. Over eight weeks of live workshops with Hustle Fund’s investment team and guest operators, we took a startup apart the way an early-stage investor would.</p>
+          <ol class="weeks">
+            <li><strong>Problem discovery and founder–market fit</strong> with Eric Bahn, General Partner at Hustle Fund</li>
+            <li><strong>Customer discovery, demand validation, and MVPs</strong> with Nate Andorsky</li>
+            <li><strong>Metrics that matter and financial viability</strong> with Brian Nichols, co-founder of Angel Squad</li>
+            <li><strong>Market sizing</strong>, TAM, SAM, and SOM from the top down and bottom up, with Katie Nowak</li>
+            <li><strong>Getting your first 100 customers</strong> with Kera DeMars, Head of Marketing at Hustle Fund</li>
+            <li><strong>Pitching, branding, and fundraising strategy</strong> with Heidi Luerra</li>
+          </ol>
+          <p>To graduate, I presented a live deal review to a panel of angel judges using Hustle Fund’s deal assessment framework. Graduating came with lifetime membership in Angel Squad, Hustle Fund’s angel investing community, where I keep reviewing new deals.</p>
+        </article>
       </div>
     </div>
   </section>
